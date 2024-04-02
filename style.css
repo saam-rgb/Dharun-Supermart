@@ -1,9 +1,9 @@
-.navbar-brand {
+/* .navbar-brand {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   top: 10px;
-}
+} */
 
 .navbar-toggler {
   border: none !important;
@@ -13,6 +13,31 @@
   margin: auto;
   width: 90%;
 }
+.search-bar {
+  width: 400px !important;
+  margin-right: 10px !important;
+}
+.form-control {
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+.btn-outline-success {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+.material-symbols-outlined {
+  align-self: baseline;
+}
+@media only screen and (max-width: 980px) {
+  .search-bar {
+    width: auto !important;
+    margin-top: 10px !important;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+  }
+}
+
+/* Hero Section */
 .hero-section {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(./img/header.png);
